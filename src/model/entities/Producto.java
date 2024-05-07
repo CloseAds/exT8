@@ -15,7 +15,7 @@ public class Producto {
     public Producto() {
     }
 
-    public String getCodigo_producto() {
+    public int getCodigo_producto() {
         return codigo_producto;
     }
 
@@ -31,7 +31,7 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
-    public String getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
@@ -39,7 +39,7 @@ public class Producto {
         this.precio = precio;
     }
 
-    public String getStock() {
+    public int getStock() {
         return stock;
     }
 
